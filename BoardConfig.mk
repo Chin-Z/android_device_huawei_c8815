@@ -50,7 +50,16 @@ BOARD_VENDOR_QCOM_GPS_LOC_API_AMSS_VERSION := 50000
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
+BOARD_HAVE_BLUETOOTH_QCOM := true
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/huawei/c8815/bluetooth
+
+# FM Radio
+BOARD_HAVE_FM_RADIO := true
+BOARD_HAVE_QCOM_FM := true
+COMMON_GLOBAL_CFLAGS += -DHAVE_FM_RADIO -DQCOM_FM_ENABLED
+
+# RIL
+BOARD_RIL_CLASS := ../../../device/huawei/c8815/ril/
 
 # OpenGL drivers config file path
 BOARD_EGL_CFG := device/huawei/c8815/prebuilt/system/lib/egl/egl.cfg
