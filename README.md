@@ -16,3 +16,7 @@ Build Recovery
 Build System
 ---------------
 	make -j4 bacon;
+
+Thanks List
+---------------
+	ivan秋叶随风,Chin;
