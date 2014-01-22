@@ -19,4 +19,4 @@ Build System
 
 Thanks List
 ---------------
-	Dazzozo,ivan秋叶随风,Chin;
+	Dazzozo,ivan秋叶随风,mandfx,Chin;

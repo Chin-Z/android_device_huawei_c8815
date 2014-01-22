@@ -37,9 +37,9 @@ PRODUCT_PACKAGES += \
 #Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += \
 	PRODUCT_NAME=c8815 \
-	BUILD_FINGERPRINT=huawei/c8815:4.4.2/JZO54K/223160:userdebug/release \
-	PRIVATE_BUILD_DESC="huawei-chin 4.4.2 JZO54K 223160 release" \
-	BUILD_NUMBER=223160
+	BUILD_FINGERPRINT=huawei/c8815:4.4.2:userdebug/release \
+	PRIVATE_BUILD_DESC="huawei-chin 4.4.2  release" \
+	BUILD_NUMBER=001
 
 UTC_DATE := $(shell date +%s)
 DATE := $(shell date +%Y%m%d)
